@@ -1,0 +1,120 @@
+<div class="container mt-2" style="font-weight: normal; font-size: 15px">
+  <div class="" style="float: left;">
+    <div class="mb-2">
+      <div class="title mb-4" >
+        <h3 class="mb-3" style="font-size: 21px; font-weight: bolder">{{gameInfo.name}}</h3>
+        <p style="font-size: 14px; color: #797979">Comments: <span class="activity">614</span> / Views: <span class="activity">3138491</span></p>
+      </div>
+<!--      &#45;&#45;&#45;&#45;-->
+      <div style="float: left; width: 340px; ">
+        <div id="article-film-full-poster-bg">
+          <img src="{{gameInfo.image}}" style="width: 340px; height: 200px" alt="Fortnite Battle Royale" title="Fortnite Battle Royale" class="article-img-full entry-image">
+        </div>
+        <div id="news-id-274"></div>
+        <table class="ignore-select" width="100%" style="padding-bottom: 50px; margin-bottom:0px; background:#e1e4e9; border-radius:0px;">
+          <tbody>
+          <tr>
+            <td width="230px" align="center"><br>
+              <a (click)="addSubs()" id="news_subscribe" class="link-subscribe" title="Подписаться на обновления">Follow for an updates</a><br>
+              <div style="padding-top: 10px;">Followers: <b style="color:red; " id="count">2719</b></div>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+<!--      &#45;&#45;&#45;&#45;-->
+<!--      gameinfo-->
+      <div style="padding-left: 350px;">
+        Year: 2020<br>
+        Type: Electric car<br>
+        Manufacturer: Tesla Motors<br>
+        Brand: Tesla<br>
+        Model: <b>{{gameInfo.name}}</b><br>
+        Engine: <b>Electric</b><br>
+        Battery: <b>100 kWh</b><br>
+        Maximum speed: <b>250 km/h</b><br>
+        Electric motor power: <b>773 h.p.</b><br><br><br><br><br>
+
+        <div class="exampleone">
+
+        </div>
+      </div>
+<!--      gameinfo-->
+    </div>
+
+    <div class="description mt-4">
+      <div class="mb-2" style="font-size: 18px; font-weight: bolder; color: #89C80E">Electromobile description:</div>
+      Model X is built from the ground up as an electric vehicle, with a high-strength architecture and floor-mounted battery pack for incredible occupant protection and low rollover risk. Every Model X includes Tesla's latest active safety features, such as Automatic Emergency Braking, at no extra cost.<br/><br/>
+      <div class="mb-2" style="font-size: 18px"><strong>About electric car:</strong></div>
+      An electric car is a car that is propelled by one or more electric motors, using energy stored in rechargeable batteries. Compared to internal combustion engine (ICE) vehicles, electric cars are quieter, have no exhaust emissions, and lower emissions overall. In the United States, as of 2020, the total cost of ownership of recent EVs is cheaper than that of equivalent ICE cars, due to lower fueling and maintenance costs. Charging an electric car can be done at a variety of charging stations; these charging stations can be installed in both houses and public areas.
+      <br><br>
+      Several countries have established government incentives for plug-in electric vehicles, tax credits, subsidies, and other non-monetary incentives. Several countries have established a phase-out of fossil fuel vehicles, and California, which is one of the largest vehicle markets, has an executive order to ban sales of new gasoline powered vehicles by 2035.
+
+    </div><br><br>
+
+    <div class="gallery mb-3">
+      <div class="mb-3" style="font-size: 18px; font-weight: bolder; color: #89C80E">3D Model:</div>
+      <div class="text-center" *ngIf="id == 1">
+        <div class="sketchfab-embed-wrapper"> <iframe title="Tesla MODEL X [Animation]" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/36e9d3598c554bb69f3d9cd00e161818/embed?autostart=1&camera=0&ui_watermark_link=0&ui_watermark=0&ui_theme=dark"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> </p></div>
+      </div>
+      <div class="text-center" *ngIf="id == 2">
+        <div class="sketchfab-embed-wrapper"> <iframe title="Tesla MODEL X [Animation]" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/3552ec8390fb49548bf55a09778ad869/embed?autostart=1&camera=0"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> </p></div>
+      </div>
+      <div class="text-center" *ngIf="id == 3">
+        <div class="sketchfab-embed-wrapper"> <iframe title="Tesla MODEL X [Animation]" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/117d7dbdd6f94df9886c42995cdd06db/embed?autostart=1&camera=0"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> </p></div>
+      </div>
+      <div class="text-center" *ngIf="id == 4">
+        <div class="sketchfab-embed-wrapper"> <iframe title="Tesla MODEL X [Animation]" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/e0f703b823e74746b40634d1876f6a13/embed?autostart=1&camera=0"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> </p></div>
+      </div>
+      <div class="text-center" *ngIf="id == 5">
+        <div class="sketchfab-embed-wrapper"> <iframe title="Tesla MODEL X [Animation]" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/280b6fcb713a4374927759a12eedf661/embed?autostart=1&camera=0"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> </p></div>
+      </div>
+      <div class="text-center" *ngIf="id == 6">
+        <div class="sketchfab-embed-wrapper"> <iframe title="Tesla MODEL X [Animation]" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/49067e3857bd4081918b7f3f5898eb3c/embed?autostart=1&camera=0"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> </p></div>
+      </div>
+      <div class="text-center" *ngIf="id == 7">
+        <div class="sketchfab-embed-wrapper"> <iframe title="Tesla MODEL X [Animation]" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/9afbf160b3a54e789d124266c8958073/embed?autostart=1&camera=0"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> </p></div>
+      </div>
+      <div class="text-center" *ngIf="id == 8">
+        <div class="sketchfab-embed-wrapper"> <iframe title="Tesla MODEL X [Animation]" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/44c1adc081b04051abba11bdb77c1075/embed?autostart=1&camera=0"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> </p></div>
+      </div>
+        <div class="mb-3" style="font-size: 18px; font-weight: bolder; color: #89C80E">Gallery:</div>
+      <div class="" style="margin-left: 100px">
+      <div class="row" style="">
+        <div class="column" style="">
+          <img class="game-image" src="{{gameInfo.screen1}}" alt="Snow" style="width:450px; height: 300px; margin: 0">
+        </div>
+        <div class="column" style="">
+          <img class="game-image" src="{{gameInfo.screen2}}" alt="Forest" style="width:450px; height: 300px; margin: 0">
+        </div>
+        <div class="column" style="">
+          <img class="game-image" src="{{gameInfo.screen3}}" alt="Mountains" style="width:450px; height: 300px; margin: 0">
+        </div>
+        <div class="column" style="">
+          <img class="game-image" src="{{gameInfo.screen4}}" alt="Mountains" style="width:450px; height: 300px; margin: 0">
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="torrent text-center mb-5">
+      <div class="mb-2" style="font-size: 18.6px; font-weight: normal; color: #89C80E">Available today!</div>
+      <a href="" style=""><button class="btn rounded download-btn">Check the price</button></a>
+    </div>
+
+    <div class="recommendation">
+      <div class="mb-2"  style="font-size: 18.6px; font-weight: normal;">Others autos:</div>
+      <div *ngFor="let element of games$.slice(0, 8); let i = index;" class="" style="width: 340px; float: left; margin-right: 20px; margin-top: 10px">
+        <a [routerLink]="['/game-page/'+element.id]" onclick="$('html, body').animate({scrollTop:0},400)" ><img class="card-img-top rounded" style="width: 340px; height: 200px" src="{{element.image}}" alt="Card image cap">
+        </a>
+        <div class="" style="text-align: center">
+          <a [routerLink]="['/game-page/'+element.id]" onclick="$('html, body').animate({scrollTop:0},400)" class="btn btn-link p-0 m-3">{{element.name}}</a><br>
+        </div>
+      </div>
+    </div>
+    <div class="float-left text-center" style="margin: 30px 0 30px 25px">
+        <a routerLink="/faq" onclick="$('html, body').animate({scrollTop:0},400)" style="color: #353535; border: solid 2px red; padding: 8px 275px">FAQ about orders</a>
+      </div>
+    </div>
+  </div>
+<app-comments></app-comments>

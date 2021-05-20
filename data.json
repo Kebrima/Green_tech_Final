@@ -1,0 +1,415 @@
+{
+  "accounts": [
+    {
+      "email": "admin@gmail.com",
+      "password": "admin",
+      "password1": "admin",
+      "login": "Admin",
+      "id": 1
+    },
+    {
+      "email": "kiko@gmail.com",
+      "password": "kikokiko",
+      "password1": "kikokiko",
+      "login": "Kiko",
+      "id": 2
+    },
+    {
+      "email": "somad@gmail.com",
+      "password": "somad",
+      "password1": "somad",
+      "login": "somad",
+      "id": 3
+    }
+  ],
+  "games": [
+    {
+      "id": 1,
+      "name": "Tesla Model X",
+      "image": "https://www.cstatic-images.com/car-pictures/maxWidth503/usc60tss011c021001.png"
+    },
+    {
+      "id": 2,
+      "name": "Tesla Model S",
+      "image": "https://www.cstatic-images.com/car-pictures/maxWidth503/usc70tsc024b021001.png"
+    },
+    {
+      "id": 3,
+      "name": "Tesla Model 3",
+      "image": "https://www.cstatic-images.com/car-pictures/maxWidth503/usc80tsc032a021001.png"
+    },
+    {
+      "id": 4,
+      "name": "Tesla Model Y",
+      "image": "https://www.cstatic-images.com/car-pictures/maxWidth503/usd00tss021a021001.png"
+    },
+    {
+      "id": 5,
+      "name": "Hyundai Kona EV",
+      "image": "https://www.cstatic-images.com/car-pictures/maxWidth503/cac90hys181b021001.png"
+    },
+    {
+      "id": 6,
+      "name": "Kia Niro EV",
+      "image": "https://www.cstatic-images.com/car-pictures/maxWidth503/usd00kis071a021001.png"
+    },
+    {
+      "id": 7,
+      "name": "Chevrolet Bolt EV",
+      "image": "https://www.cstatic-images.com/car-pictures/maxWidth503/usd00chc401a021001.png"
+    },
+    {
+      "id": 8,
+      "name": "Nissan LEAF",
+      "image": "https://www.cstatic-images.com/car-pictures/maxWidth503/usc80nic161b021001.png"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Игры по сети"
+    },
+    {
+      "id": 2,
+      "name": "Репаки от Игрухи"
+    },
+    {
+      "id": 3,
+      "name": "Репаки от Хатаба"
+    },
+    {
+      "id": 4,
+      "name": "Репаки от Механиков"
+    },
+    {
+      "id": 5,
+      "name": "Игры 2021 года"
+    },
+    {
+      "id": 6,
+      "name": "Игры 2020 года"
+    },
+    {
+      "id": 7,
+      "name": "Игры 2019 года"
+    },
+    {
+      "id": 8,
+      "name": "Игры 2018 года"
+    },
+    {
+      "id": 9,
+      "name": "Для слабых ПК"
+    },
+    {
+      "id": 10,
+      "name": "Хороший сюжет"
+    },
+    {
+      "id": 11,
+      "name": "Хорошая графика"
+    },
+    {
+      "id": 12,
+      "name": "Открытый мир"
+    },
+    {
+      "id": 13,
+      "name": "От 1-го лица"
+    },
+    {
+      "id": 14,
+      "name": "От 3-го лица"
+    }
+  ],
+  "gameInfo": [
+    {
+      "id": 1,
+      "name": "Tesla Model X",
+      "image": "https://www.cstatic-images.com/car-pictures/maxWidth503/usc60tss011c021001.png",
+      "year": "2007",
+      "category": "Action, Shooter, 3D, 1st Person",
+      "developer": "Crytek Studios",
+      "publisher": "Electronic Arts / GOG",
+      "type": "Лицензия",
+      "platform": "PC",
+      "crack": "Не требуется",
+      "language": "RUS|ENG",
+      "voice": "RUS|ENG",
+      "os": "XP / Vista / 7 / 8 / 10 (32-64bit)",
+      "processor": "Intel Pentium 4 2.8 Ghz (3.2 Ghz for Vista)",
+      "ram": "1 Gb (1.5 Gb for Vista)",
+      "videocard": "256 Mb | NVIDIA GeForce 6800 GT, ATI Radeon 9800",
+      "disk": "6,7 Gb",
+      "about": "Релиз конца 2007 года от немецкой компании-разработчика «Crytek». Лучший шутер года по версии «GameSpot». Для всех поклонников научной фантастики с динамическим сюжетом – «Crysis». Игра в лучших традициях «Far Cry». 2020 год на островах Лингшан ученые обнаруживают останки древнего инопланетного космического корабля, который в дальнейшем оказывается, только начальным связующим звеном, ведущим к разгадке многих тайн. В то же время вокруг вышеупомянутых островов разыгрывается конфликт между США и КНДР, что значительно осложняется деятельность научно-исследовательской экспедиции.",
+      "trailer": "https://www.youtube.com/embed/u6gsOQ8HZAU",
+      "screen1": "https://car-pictures.cars.com/images/?IMG=USC60TSS011C021021.jpg&HEIGHT=600",
+      "screen2": "https://car-pictures.cars.com/images/?IMG=USC60TSS011C021005.jpg&HEIGHT=600",
+      "screen3": "https://car-pictures.cars.com/images/?IMG=USC60TSS011C021002.jpg&HEIGHT=600",
+      "screen4": "https://car-pictures.cars.com/images/?IMG=USC60TSS011C021003.jpg&HEIGHT=600",
+      "size": "6,7 Gb"
+    },
+    {
+      "id": 2,
+      "name": "Tesla Model S",
+      "image": "https://www.cstatic-images.com/car-pictures/maxWidth503/usc70tsc024b021001.png",
+      "year": "2009",
+      "category": "Action, Shooter, 3D, 1st Person",
+      "developer": "Raven Software",
+      "publisher": "Activision",
+      "type": "Лицензия",
+      "platform": "PC",
+      "crack": "Не требуется",
+      "language": "RUS|ENG",
+      "voice": "RUS|ENG",
+      "os": "XP / Vista / 7 / 8 / 10 (32-64bit)",
+      "processor": "Intel Pentium 4 2.8 Ghz (3.2 Ghz for Vista)",
+      "ram": "1 Gb (1.5 Gb for Vista)",
+      "videocard": "256 Mb | NVIDIA GeForce 6800 GT, ATI Radeon 9800",
+      "disk": "12 Gb",
+      "about": "Релиз конца 2007 года от немецкой компании-разработчика «Crytek». Лучший шутер года по версии «GameSpot». Для всех поклонников научной фантастики с динамическим сюжетом – «Crysis». Игра в лучших традициях «Far Cry». 2020 год на островах Лингшан ученые обнаруживают останки древнего инопланетного космического корабля, который в дальнейшем оказывается, только начальным связующим звеном, ведущим к разгадке многих тайн. В то же время вокруг вышеупомянутых островов разыгрывается конфликт между США и КНДР, что значительно осложняется деятельность научно-исследовательской экспедиции.",
+      "trailer": "https://www.youtube.com/embed/u6gsOQ8HZAU",
+      "screen1": "https://car-pictures.cars.com/images/?IMG=USC70TSC024B021002.jpg&HEIGHT=600",
+      "screen2": "https://car-pictures.cars.com/images/?IMG=USC70TSC024B021009.jpg&HEIGHT=600",
+      "screen3": "https://car-pictures.cars.com/images/?IMG=USC70TSC024B021005.jpg&HEIGHT=600",
+      "screen4": "https://car-pictures.cars.com/images/?IMG=USC70TSC024B021021.jpg&HEIGHT=600",
+      "size": "12 Gb"
+    },
+    {
+      "id": 3,
+      "name": "Tesla Model 3",
+      "image": "https://www.cstatic-images.com/car-pictures/maxWidth503/usc80tsc032a021001.png",
+      "year": "2004",
+      "category": "Action, Shooter, 3D, 1st Person",
+      "developer": "Crytek, Crytek Studios",
+      "publisher": "Ubisoft",
+      "type": "Лицензия",
+      "platform": "PC",
+      "crack": "Не требуется",
+      "language": "RUS|ENG",
+      "voice": "RUS|ENG",
+      "os": "XP / Vista / 7 / 8 / 10 (32-64bit)",
+      "processor": "Intel Pentium 4 2.8 Ghz (3.2 Ghz for Vista)",
+      "ram": "1 Gb (1.5 Gb for Vista)",
+      "videocard": "256 Mb | NVIDIA GeForce 6800 GT, ATI Radeon 9800",
+      "disk": "4,5 Gb",
+      "about": "Релиз конца 2007 года от немецкой компании-разработчика «Crytek». Лучший шутер года по версии «GameSpot». Для всех поклонников научной фантастики с динамическим сюжетом – «Crysis». Игра в лучших традициях «Far Cry». 2020 год на островах Лингшан ученые обнаруживают останки древнего инопланетного космического корабля, который в дальнейшем оказывается, только начальным связующим звеном, ведущим к разгадке многих тайн. В то же время вокруг вышеупомянутых островов разыгрывается конфликт между США и КНДР, что значительно осложняется деятельность научно-исследовательской экспедиции.",
+      "trailer": "https://www.youtube.com/embed/u6gsOQ8HZAU",
+      "screen1": "https://car-pictures.cars.com/images/?IMG=USC80TSC032A021009.jpg&HEIGHT=600",
+      "screen2": "https://car-pictures.cars.com/images/?IMG=USC80TSC032A021005.jpg&HEIGHT=600",
+      "screen3": "https://car-pictures.cars.com/images/?IMG=USC80TSC032A021001.jpg&HEIGHT=600",
+      "screen4": "https://car-pictures.cars.com/images/?IMG=USC80TSC032A021006.jpg&HEIGHT=600",
+      "size": "4,5 Gb"
+    },
+    {
+      "id": 4,
+      "name": "Tesla Model Y",
+      "image": "https://www.cstatic-images.com/car-pictures/maxWidth503/usd00tss021a021001.png",
+      "year": "2011",
+      "category": "Action, Shooter, 3D, 1st Person",
+      "developer": "From Software, n-Space",
+      "publisher": "From Software, Bandai Namco",
+      "type": "Лицензия",
+      "platform": "PC",
+      "crack": "Не требуется",
+      "language": "RUS|ENG",
+      "voice": "RUS|ENG",
+      "os": "XP / Vista / 7 / 8 / 10 (32-64bit)",
+      "processor": "Intel Pentium 4 2.8 Ghz (3.2 Ghz for Vista)",
+      "ram": "1 Gb (1.5 Gb for Vista)",
+      "videocard": "256 Mb | NVIDIA GeForce 6800 GT, ATI Radeon 9800",
+      "disk": "7.3 Gb",
+      "about": "Релиз конца 2007 года от немецкой компании-разработчика «Crytek». Лучший шутер года по версии «GameSpot». Для всех поклонников научной фантастики с динамическим сюжетом – «Crysis». Игра в лучших традициях «Far Cry». 2020 год на островах Лингшан ученые обнаруживают останки древнего инопланетного космического корабля, который в дальнейшем оказывается, только начальным связующим звеном, ведущим к разгадке многих тайн. В то же время вокруг вышеупомянутых островов разыгрывается конфликт между США и КНДР, что значительно осложняется деятельность научно-исследовательской экспедиции.",
+      "trailer": "https://www.youtube.com/embed/u6gsOQ8HZAU",
+      "screen1": "https://car-pictures.cars.com/images/?IMG=USD00TSS021A021003.jpg&HEIGHT=600",
+      "screen2": "https://car-pictures.cars.com/images/?IMG=USD00TSS021A021001.jpg&HEIGHT=600",
+      "screen3": "https://car-pictures.cars.com/images/?IMG=USD00TSS021A021002.jpg&HEIGHT=600",
+      "screen4": "https://car-pictures.cars.com/images/?IMG=USD00TSS021A01306.jpg&HEIGHT=600",
+      "size": "7.3 Gb"
+    },
+    {
+      "id": 5,
+      "name": "Hyundai Kona EV",
+      "image": "https://www.cstatic-images.com/car-pictures/maxWidth503/cac90hys181b021001.png",
+      "year": "2018",
+      "category": "Action, Shooter, 3D, 1st Person",
+      "developer": "Insomniac Games",
+      "publisher": "Sony Interactive Entertainment",
+      "type": "Лицензия",
+      "platform": "PC",
+      "crack": "Не требуется",
+      "language": "RUS|ENG",
+      "voice": "RUS|ENG",
+      "os": "XP / Vista / 7 / 8 / 10 (32-64bit)",
+      "processor": "Intel Pentium 4 2.8 Ghz (3.2 Ghz for Vista)",
+      "ram": "1 Gb (1.5 Gb for Vista)",
+      "videocard": "256 Mb | NVIDIA GeForce 6800 GT, ATI Radeon 9800",
+      "disk": "72 Gb",
+      "about": "Релиз конца 2007 года от немецкой компании-разработчика «Crytek». Лучший шутер года по версии «GameSpot». Для всех поклонников научной фантастики с динамическим сюжетом – «Crysis». Игра в лучших традициях «Far Cry». 2020 год на островах Лингшан ученые обнаруживают останки древнего инопланетного космического корабля, который в дальнейшем оказывается, только начальным связующим звеном, ведущим к разгадке многих тайн. В то же время вокруг вышеупомянутых островов разыгрывается конфликт между США и КНДР, что значительно осложняется деятельность научно-исследовательской экспедиции.",
+      "trailer": "https://www.youtube.com/embed/u6gsOQ8HZAU",
+      "screen1": "https://car-pictures.cars.com/images/?IMG=CAC90HYS181B021001.jpg&HEIGHT=600",
+      "screen2": "https://car-pictures.cars.com/images/?IMG=CAC90HYS181B021008.jpg&HEIGHT=600",
+      "screen3": "https://car-pictures.cars.com/images/?IMG=CAC90HYS181B021009.jpg&HEIGHT=600",
+      "screen4": "https://car-pictures.cars.com/images/?IMG=CAC90HYS181B021005.jpg&HEIGHT=600",
+      "size": "72 Gb"
+    },
+    {
+      "id": 6,
+      "name": "Kia Niro EV",
+      "image": "https://www.cstatic-images.com/car-pictures/maxWidth503/usd00kis071a021001.png",
+      "year": "2007",
+      "category": "Action, Shooter, 3D, 1st Person",
+      "developer": "Crytek Studios",
+      "publisher": "Electronic Arts / GOG",
+      "type": "Лицензия",
+      "platform": "PC",
+      "crack": "Не требуется",
+      "language": "RUS|ENG",
+      "voice": "RUS|ENG",
+      "os": "XP / Vista / 7 / 8 / 10 (32-64bit)",
+      "processor": "Intel Pentium 4 2.8 Ghz (3.2 Ghz for Vista)",
+      "ram": "1 Gb (1.5 Gb for Vista)",
+      "videocard": "256 Mb | NVIDIA GeForce 6800 GT, ATI Radeon 9800",
+      "disk": "6,7 Gb",
+      "about": "Релиз конца 2007 года от немецкой компании-разработчика «Crytek». Лучший шутер года по версии «GameSpot». Для всех поклонников научной фантастики с динамическим сюжетом – «Crysis». Игра в лучших традициях «Far Cry». 2020 год на островах Лингшан ученые обнаруживают останки древнего инопланетного космического корабля, который в дальнейшем оказывается, только начальным связующим звеном, ведущим к разгадке многих тайн. В то же время вокруг вышеупомянутых островов разыгрывается конфликт между США и КНДР, что значительно осложняется деятельность научно-исследовательской экспедиции.",
+      "trailer": "https://www.youtube.com/embed/u6gsOQ8HZAU",
+      "screen1": "https://car-pictures.cars.com/images/?IMG=USD00KIS071A021003.jpg&HEIGHT=600",
+      "screen2": "https://car-pictures.cars.com/images/?IMG=USD00KIS071A021008.jpg&HEIGHT=600",
+      "screen3": "https://car-pictures.cars.com/images/?IMG=USD00KIS071A021007.jpg&HEIGHT=600",
+      "screen4": "https://car-pictures.cars.com/images/?IMG=USD00KIS071A021005.jpg&HEIGHT=600",
+      "size": "6,7 Gb"
+    },
+    {
+      "id": 7,
+      "name": "Chevrolet Bolt EV",
+      "image": "https://www.cstatic-images.com/car-pictures/maxWidth503/usd00chc401a021001.png",
+      "year": "2007",
+      "category": "Action, Shooter, 3D, 1st Person",
+      "developer": "Crytek Studios",
+      "publisher": "Electronic Arts / GOG",
+      "type": "Лицензия",
+      "platform": "PC",
+      "crack": "Не требуется",
+      "language": "RUS|ENG",
+      "voice": "RUS|ENG",
+      "os": "XP / Vista / 7 / 8 / 10 (32-64bit)",
+      "processor": "Intel Pentium 4 2.8 Ghz (3.2 Ghz for Vista)",
+      "ram": "1 Gb (1.5 Gb for Vista)",
+      "videocard": "256 Mb | NVIDIA GeForce 6800 GT, ATI Radeon 9800",
+      "disk": "6,7 Gb",
+      "about": "Релиз конца 2007 года от немецкой компании-разработчика «Crytek». Лучший шутер года по версии «GameSpot». Для всех поклонников научной фантастики с динамическим сюжетом – «Crysis». Игра в лучших традициях «Far Cry». 2020 год на островах Лингшан ученые обнаруживают останки древнего инопланетного космического корабля, который в дальнейшем оказывается, только начальным связующим звеном, ведущим к разгадке многих тайн. В то же время вокруг вышеупомянутых островов разыгрывается конфликт между США и КНДР, что значительно осложняется деятельность научно-исследовательской экспедиции.",
+      "trailer": "https://www.youtube.com/embed/u6gsOQ8HZAU",
+      "screen1": "https://car-pictures.cars.com/images/?IMG=USD00CHC401A021005.jpg&HEIGHT=600",
+      "screen2": "https://car-pictures.cars.com/images/?IMG=USD00CHC401A021007.jpg&HEIGHT=600",
+      "screen3": "https://car-pictures.cars.com/images/?IMG=USD00CHC401A021003.jpg&HEIGHT=600",
+      "screen4": "https://car-pictures.cars.com/images/?IMG=USD00CHC401A021002.jpg&HEIGHT=600",
+      "size": "6,7 Gb"
+    },
+    {
+      "id": 8,
+      "name": "Nissan LEAF",
+      "image": "https://www.cstatic-images.com/car-pictures/maxWidth503/usc80nic161b021001.png",
+      "year": "2007",
+      "category": "Action, Shooter, 3D, 1st Person",
+      "developer": "Crytek Studios",
+      "publisher": "Electronic Arts / GOG",
+      "type": "Лицензия",
+      "platform": "PC",
+      "crack": "Не требуется",
+      "language": "RUS|ENG",
+      "voice": "RUS|ENG",
+      "os": "XP / Vista / 7 / 8 / 10 (32-64bit)",
+      "processor": "Intel Pentium 4 2.8 Ghz (3.2 Ghz for Vista)",
+      "ram": "1 Gb (1.5 Gb for Vista)",
+      "videocard": "256 Mb | NVIDIA GeForce 6800 GT, ATI Radeon 9800",
+      "disk": "6,7 Gb",
+      "about": "Релиз конца 2007 года от немецкой компании-разработчика «Crytek». Лучший шутер года по версии «GameSpot». Для всех поклонников научной фантастики с динамическим сюжетом – «Crysis». Игра в лучших традициях «Far Cry». 2020 год на островах Лингшан ученые обнаруживают останки древнего инопланетного космического корабля, который в дальнейшем оказывается, только начальным связующим звеном, ведущим к разгадке многих тайн. В то же время вокруг вышеупомянутых островов разыгрывается конфликт между США и КНДР, что значительно осложняется деятельность научно-исследовательской экспедиции.",
+      "trailer": "https://www.youtube.com/embed/u6gsOQ8HZAU",
+      "screen1": "https://car-pictures.cars.com/images/?IMG=USC80NIC161B021021.jpg&HEIGHT=600",
+      "screen2": "https://car-pictures.cars.com/images/?IMG=USC80NIC161B021009.jpg&HEIGHT=600",
+      "screen3": "https://car-pictures.cars.com/images/?IMG=USC80NIC161B021008.jpg&HEIGHT=600",
+      "screen4": "https://car-pictures.cars.com/images/?IMG=USC80NIC161B021007.jpg&HEIGHT=600",
+      "size": "6,7 Gb"
+    }
+  ],
+  "subscribes": [
+    {
+      "id": 1,
+      "name": "Crysis",
+      "image": "https://s01.riotpixels.net/data/c5/77/c5771139-43c3-4fde-8030-8f5c4be7477e.jpg.1080p.jpg/cover.crysis.767x1080.2011-10-18.1361.jpg",
+      "year": "2007",
+      "category": "Action, Shooter, 3D, 1st Person",
+      "developer": "Crytek Studios",
+      "publisher": "Electronic Arts / GOG",
+      "type": "Лицензия",
+      "platform": "PC",
+      "crack": "Не требуется",
+      "language": "RUS|ENG",
+      "voice": "RUS|ENG",
+      "os": "XP / Vista / 7 / 8 / 10 (32-64bit)",
+      "processor": "Intel Pentium 4 2.8 Ghz (3.2 Ghz for Vista)",
+      "ram": "1 Gb (1.5 Gb for Vista)",
+      "videocard": "256 Mb | NVIDIA GeForce 6800 GT, ATI Radeon 9800",
+      "disk": "6,7 Gb",
+      "about": "Релиз конца 2007 года от немецкой компании-разработчика «Crytek». Лучший шутер года по версии «GameSpot». Для всех поклонников научной фантастики с динамическим сюжетом – «Crysis». Игра в лучших традициях «Far Cry». 2020 год на островах Лингшан ученые обнаруживают останки древнего инопланетного космического корабля, который в дальнейшем оказывается, только начальным связующим звеном, ведущим к разгадке многих тайн. В то же время вокруг вышеупомянутых островов разыгрывается конфликт между США и КНДР, что значительно осложняется деятельность научно-исследовательской экспедиции.",
+      "trailer": "https://www.youtube.com/embed/u6gsOQ8HZAU",
+      "screen1": "https://cdn.wccftech.com/wp-content/uploads/2020/06/Crysis-Remastered.jpg",
+      "screen2": "https://www.newgamenetwork.com/images/uploads/gallery/Crysis/image02.jpg",
+      "screen3": "https://www.overclockers.ua/news/games/127199-crysis-remastered-1.jpg",
+      "screen4": "https://www.mobygames.com/images/shots/l/262263-crysis-windows-screenshot-even-with-reduced-details-the-water.jpg",
+      "screen5": "https://i.imgur.com/t1MeEGL.jpg",
+      "screen6": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b6221f28-67ed-43d5-8500-82e620bc77d1/d2cwh7u-f98a8a89-851c-4519-b957-f1f65ebd9622.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYjYyMjFmMjgtNjdlZC00M2Q1LTg1MDAtODJlNjIwYmM3N2QxXC9kMmN3aDd1LWY5OGE4YTg5LTg1MWMtNDUxOS1iOTU3LWYxZjY1ZWJkOTYyMi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.8qiwCOGoOYBWmDu6z61hNCiEsIeXmsnO-D3y4KSJcSQ",
+      "screen7": "https://i2.wp.com/itc.ua/wp-content/uploads/2020/06/apps.40699.14283419468788233.efdbb76d-7df7-4d66-8195-b274fe4f8be3.jpg",
+      "screen8": "https://i.playground.ru/p/N1Sz24n6-mwgzO7AblKJzA.jpeg",
+      "size": "6,7 Gb"
+    },
+    {
+      "id": 6,
+      "name": "Batman Begins",
+      "image": "https://lostfilm.info/images/poster/2/12837.jpg",
+      "year": "2007",
+      "category": "Action, Shooter, 3D, 1st Person",
+      "developer": "Crytek Studios",
+      "publisher": "Electronic Arts / GOG",
+      "type": "Лицензия",
+      "platform": "PC",
+      "crack": "Не требуется",
+      "language": "RUS|ENG",
+      "voice": "RUS|ENG",
+      "os": "XP / Vista / 7 / 8 / 10 (32-64bit)",
+      "processor": "Intel Pentium 4 2.8 Ghz (3.2 Ghz for Vista)",
+      "ram": "1 Gb (1.5 Gb for Vista)",
+      "videocard": "256 Mb | NVIDIA GeForce 6800 GT, ATI Radeon 9800",
+      "disk": "6,7 Gb",
+      "about": "Релиз конца 2007 года от немецкой компании-разработчика «Crytek». Лучший шутер года по версии «GameSpot». Для всех поклонников научной фантастики с динамическим сюжетом – «Crysis». Игра в лучших традициях «Far Cry». 2020 год на островах Лингшан ученые обнаруживают останки древнего инопланетного космического корабля, который в дальнейшем оказывается, только начальным связующим звеном, ведущим к разгадке многих тайн. В то же время вокруг вышеупомянутых островов разыгрывается конфликт между США и КНДР, что значительно осложняется деятельность научно-исследовательской экспедиции.",
+      "trailer": "https://www.youtube.com/embed/u6gsOQ8HZAU",
+      "screen1": "https://www.mobygames.com/images/shots/l/212206-batman-begins-xbox-screenshot-batman-will-more-often-find.jpg",
+      "screen2": "https://media.moddb.com/images/games/1/73/72548/4scr.jpg",
+      "screen3": "https://images9.gry-online.pl/galeria/galeria_duze3/422504609.jpg",
+      "screen4": "https://www.mobygames.com/images/shots/l/212203-batman-begins-xbox-screenshot-one-on-one-with-armed-ninja.jpg",
+      "screen5": "https://media.moddb.com/cache/images/games/1/73/72548/thumb_620x2000/3scr.jpg",
+      "screen6": "https://screenshots.gamer-info.com/batman-begins/4860.jpg",
+      "screen7": "https://www.mobygames.com/images/shots/l/212205-batman-begins-xbox-screenshot-on-a-speeding-train.jpg",
+      "screen8": "https://screenshots.gamer-info.com/batman-begins/4866.jpg",
+      "size": "6,7 Gb"
+    }
+  ],
+  "comments": [
+    {
+      "name": "Somad",
+      "message": "I am in love with Electric Cars!"
+    },
+    {
+      "name": "Dastan",
+      "message": "OMG! New Tesla Model X :O"
+    },
+    {
+      "name": "Almas",
+      "message": "Imagine you forgot to charge your car ;)"
+    },
+    {
+      "name": "Sukich",
+      "message": "Nah, regular cars better"
+    }
+  ]
+}

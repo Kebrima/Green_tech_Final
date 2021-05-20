@@ -1,0 +1,57 @@
+  <div class="module-title mb-5 mt-3">
+    <a routerLink="/" class="module-title-articles">Main page <i class="fas fa-chevron-circle-right fa-lg"></i></a>
+    <h1 style="font-size: 21px; font-weight: bold; color: #89C80E">Ecological Impact of Electric Cars</h1><br>
+    <h3 style="font-size: 21px; font-weight: bolder">Are electric cars better for the environment?</h3>
+    <div *ngIf="a == 0" class="mb-5">
+    <p>
+      The major benefit of electric cars is the contribution that they can make towards improving air quality in towns and cities. With no tailpipe, pure electric cars produce no carbon dioxide emissions when driving. This reduces air pollution considerably.
+    </p>
+      <button (click)="open(1)" class="btn p-2" style="background-color: #89C80E">Read more</button>
+  </div>
+    <div *ngIf="a == 1" class="mb-5">
+    <p>
+      The major benefit of electric cars is the contribution that they can make towards improving air quality in towns and cities. With no tailpipe, pure electric cars produce no carbon dioxide emissions when driving. This reduces air pollution considerably. Put simply, electric cars give us cleaner streets making our towns and cities a better place to be for pedestrians and cyclists. Over a year, just one electric car on the roads can save an average 1.5 million grams of CO2. That’s the equivalent of four return flights from London to Barcelona.
+    </p>
+      <b>Whole country behind electric cars</b>
+    <p>
+      According to the Mayor of London, road transport accounts for around half of the capital's air pollution. It’s no wonder that the UK government and local councils want to accelerate the number of electric cars on the roads. The UK government has set a target that the sale of petrol and diesel cars will be banned by 2040.
+    </p>
+    <p>
+      Electric cars can also help with noise pollution, especially in cities where speeds are generally low. As the cars are far quieter than conventional vehicles, driving electric creates a more peaceful environment for us all.
+    </p>
+      <b>Compare an electric vs petrol car yourself</b>
+    <p>
+    The Luxembourg Institute of Science and Technology have put a fabulous tool together to help you compare the overall environmental impact of electric cars vs internal combustion engine (ICE) cars. The main aim is to let users understand why, how, and in which cases electro-mobility is actually performing according to its green image, by cutting per-km emissions from its fossil fuel-based counterpart. A second objective is to show in which conditions electric vehicles may "counter-perform": what happens when the battery size changes? or the background electricity mix? the battery lifetime? what about winter conditions affecting battery performances?
+  </p>
+      <button (click)="hide(1)" class="btn p-2" style="background-color: #89C80E">Hide</button>
+    </div>
+
+  <h3 style="font-size: 21px; font-weight: bold; color: #89C80E">Economic Impact</h3><br>
+    <p>Hybrid and plug-in electric vehicles can help improve fuel economy, lower fuel costs, and reduce emissions.</p>
+    <div *ngIf="b == 0">
+      <button (click)="open(2)" class="btn p-2" style="background-color: #89C80E">Read more</button>
+    </div>
+    <div *ngIf="b == 1">
+      <h3 style="font-size: 25px; font-weight: bold">Costs</h3>
+      <p>
+        Although energy costs for hybrid and plug-in electric vehicles are generally lower than for similar conventional vehicles, purchase prices can be significantly higher. Prices are likely to equalize with conventional vehicles, as production volumes increase and battery technologies continue to mature. Also, initial costs can be offset by fuel cost savings, a federal tax credit, and state and utility incentives. The federal Qualified Plug-In Electric-Drive Motor Vehicle Tax Credit is available for PHEV and EV purchases from manufacturers that have not yet met certain thresholds of vehicle sales. It provides a tax credit of $2,500 to $7,500 for new purchases, with the amount determined by the size of the vehicle and capacity of its battery. Some states and utilities also offer incentives, which can be found in the Laws and Incentives database.
+      </p>
+      <p>
+        Use the Vehicle Cost Calculator to compare lifetime ownership costs of individual models of HEVs, PHEVs, EVs, and conventional vehicles.
+      </p>
+      <h3 style="font-size: 25px; font-weight: bold">Fuel Economy</h3>
+      <p>
+        HEVs typically achieve better fuel economy and have lower fuel costs than similar conventional vehicles. For example, FuelEconomy.gov lists the 2020 Toyota Corolla Hybrid at an EPA combined city-and-highway fuel economy estimate of 52 miles per gallon (MPG), while the estimate for the conventional 2020 Corolla (four cylinder, automatic) is 34 MPG. Use the Find A Car tool on FuelEconomy.gov to compare fuel economy ratings of individual hybrid and conventional models.
+        </p>
+      <p>
+        HEVs, PHEVs, and EVs can reduce fuel costs dramatically because of the high efficiency of electric-drive components. Because PHEVs and EVs rely in whole or part on electric power, their fuel economy is measured differently than that of conventional vehicles. Miles per gallon of gasoline equivalent (MPGe) and kilowatt-hours (kWh) per 100 miles are common metrics. Depending on how they are driven, today's light-duty EVs (or PHEVs in electric mode) can exceed 130 MPGe and can drive 100 miles consuming only 25–40 kWh.
+      </p>
+      <p>
+        The fuel economy of medium- and heavy-duty PHEVs and EVs is highly dependent on the load carried and the duty cycle, but in the right applications, PEVs maintain a strong fuel-to-cost advantage over their conventional counterparts.
+      </p>
+      <button (click)="hide(2)" class="btn p-2" style="background-color: #89C80E">Hide</button>
+    </div>
+    <br><br>
+    <h3 style="font-size: 21px; font-weight: bold; color: #89C80E">Global electric car stock, 2010-2019</h3><br>
+    <iframe src="https://drive.google.com/file/d/1xvgDmEKO0_rFFXIb6gTga8wd7Bh5ot4p/preview" width="1100" height="800"></iframe>
+  </div>

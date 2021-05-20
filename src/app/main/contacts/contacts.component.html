@@ -1,0 +1,33 @@
+<form #form method="post" id="sendmail" name="sendmail" action="https://formspree.io/f/mvovznrn" style="font-weight: normal" class="mb-5">
+  <div class="module-title mb-5 mt-3">
+    <a routerLink="/" class="module-title-articles">Main page <i class="fas fa-chevron-circle-right fa-lg"></i></a>
+    <h1 style="font-size: 21px; font-weight: bolder">Feedback</h1>
+  </div>
+
+  <div class="article-add-field-description">Your name: <span class="impot">*</span></div>
+  <input type="text" maxlength="35" name="name" ngModel required #name="ngModel">
+  <span *ngIf="name.invalid && name.touched" class="error">Required!</span>
+  <hr>
+  <div class="article-add-field-description">Your E-Mail: <span class="impot">*</span></div>
+  <input name="_replyto" type="text" maxlength="35" ngModel required #_replyto="ngModel" email>
+  <span *ngIf="_replyto.invalid && _replyto.touched" class="error">Required!</span>
+  <hr>
+
+  <div class="article-add-field-description">Receiver: <span class="impot">*</span></div>
+  <select name="recip"><option selected="selected" value="1">admin (Administrators)</option>
+  </select>
+  <hr>
+  <div class="article-add-field-description">Theme: <span class="impot">*</span></div>
+  <input type="text" maxlength="45" name="subject"  ngModel required #subject="ngModel">
+  <span *ngIf="subject.invalid && subject.touched" class="error">Required!</span>
+  <hr>
+  <div class="article-add-field-description">Message:</div>
+  <textarea name="message" class="f_textarea" ngModel required #message="ngModel"></textarea>
+  <span *ngIf="message.invalid && message.touched" class="error">Required!</span><br>
+  <div id="dle-captcha" style="display: none;"></div>
+
+
+  <button name="send_btn" class="btn rounded" type="submit" (click)="form.submit()">Send</button>
+
+  <input name="send" type="hidden" value="send">
+</form>

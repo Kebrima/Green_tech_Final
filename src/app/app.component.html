@@ -1,0 +1,10 @@
+<div style="background-color: #F5F5F5">
+<app-navbar></app-navbar>
+  <div class="container mt-3">
+    <div style="float: left; width: 100%">
+  <router-outlet></router-outlet>
+    </div>
+  </div>
+  <button style="position: fixed; right: 10px; top: 90px; pointer-events: none; background-color: #89C80E; color: #F5F5F5" class="btn rounded">{{today | date: 'dd/MM/yyyy'}}</button>
+<app-footer></app-footer>
+</div>

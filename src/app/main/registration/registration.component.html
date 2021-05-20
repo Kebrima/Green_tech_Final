@@ -1,0 +1,29 @@
+<form method="post" name="registration" id="registration" action="" style="font-size: 15px; font-weight: normal" [formGroup]="formGroup" (ngSubmit)="registrationProcess()">
+  <div class="module-title mt-3 mb-4">
+    <a routerLink="/" class="module-title-articles float-right">Main page <i class="fas fa-chevron-circle-right fa-lg"></i></a>
+    <h1 style="font-weight: bolder; font-size: 21px">Fast registration:</h1>
+  </div>
+
+  Registration on our website will allow you to be a full-fledged member of it.
+  You will be able to leave your comments, rate and much more.
+
+  <hr>
+
+
+
+  <div class="article-add-field-description">Login: <span class="impot">*</span></div>
+  <input formControlName="login" class="reg" type="text" name="login" id="name" style="width:550px;" ngModel required>
+  <input id="check" class="btn" title="Проверить доступность логина для регистрации" type="button" value="Check login"><br/>
+  <div id="result-registration"></div>
+  <hr>
+  <div class="article-add-field-description">Password: <span class="impot">*</span></div>
+  <input formControlName="password" class="reg" type="password" name="password1" style="width: 694px;" ngModel required><br/>
+  <hr>
+  <div class="article-add-field-description">Confirm password: <span class="impot">*</span></div>
+  <input formControlName="password1" class="reg" type="password" name="password2" style="width: 694px;"  ngModel required><br/>
+  <hr>
+  <div class="article-add-field-description">Your E-Mail: <span class="impot">*</span></div>
+  <input formControlName="email" class="reg" type="text" name="email" style="width: 694px;"  ngModel required email><br/>
+  <hr>
+  <button name="submit" class="btn rounded" type="submit">Send</button>
+</form>

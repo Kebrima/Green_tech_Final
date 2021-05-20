@@ -1,0 +1,16 @@
+a {
+  color: #353535;
+  float: right;
+  text-decoration: none
+}
+a:hover {
+  color: #89C80E;
+}
+p {
+  font-weight: normal;
+}
+b {
+  font-size: 20px;
+  font-weight: bold;
+}
+
